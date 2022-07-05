@@ -1,4 +1,5 @@
 body{
+    margin: 0%;
     font-family: 'Arima', cursive;
     font-family: 'Oswald', sans-serif;
     font-family: 'Poppins', sans-serif;
@@ -6,4 +7,30 @@ body{
 .topper{
     background-image: url(images/donation9.jpg);
     background-repeat: no-repeat;
+    height: 900px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
+.top-text{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+.donate-now{
+    text-decoration: none;
+    background-image: linear-gradient(orange,rgb(147, 38, 38));
+    padding: 10px 40px;
+    border-radius: 7px;   
+}
+h1{
+    font-size: 80px;
+}
+p{
+    font-size: 20px;
+   
+}
+
+    
