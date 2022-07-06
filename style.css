@@ -19,9 +19,17 @@ body{
     top: 30%;
     left: 15%;
 }
+h1{
+    font-size: 60px;
+}
+.donate{
+    margin-top: 70px;
+}
 .donate-now{
+    color:white;
+    font-size: 25px;
     text-decoration: none;
-    background-image: linear-gradient(orange,rgb(147, 38, 38));
+    background-color:rgb(253, 81, 81);
     padding: 10px 40px;
     border-radius: 7px;   
 }
@@ -30,17 +38,16 @@ body{
 }
 p{
     font-size: 20px;
+    color: rgb(105, 102, 102);
    
 }
-h3{
-    color: rgb(90, 88, 88)
-}
 .section2{
-    margin: 40px 500px 20px 500px;
+    margin: 150px 500px 20px 450px;
     text-align: center;
 }
 .box{
     display: flex;
+    margin: 40px 0px 40px 0px;
 }
 .col{
  
@@ -60,13 +67,54 @@ h3{
     text-align: center;
     background-color: rgb(225, 216, 216);
     font-size: 40px;
-    
     border-radius: 10px;
     border-color: red;
     color:red;
 }
-h1{
-    font-size: 60px;
-}
 
+.input{
+    border:none;
+    border-bottom: 2px solid rgb(208, 203, 203);
+    padding: 30px;
+    width:100%;
+    text-align: center;
+    font-size: 30px;
+}
+.inputfield{
+    margin-top: 50px;
+}
+.buttonfield{
+    margin: 50px;
+}
+.button{
+    padding:25px 46px 25px 46px;
+    color:white;
+    background-color: orange;
+    border:none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.plan{
+    text-align: center;
+    margin:200px 500px 70px 500px;
+}
+.box2{
+    display: flex;
+    margin: 10px 200px 10px 200px;
+}
+.subbox{
+    margin: 20px;
+    padding: 90px;
+    border-radius: 20px;
+   
+}
+footer{
+    color:white;
+    background-color: black;
+    text-align: center;
+    margin-top: 40px;
+    padding:20px;
+    font-family: Lucida Handwriting;
+
+}
 
